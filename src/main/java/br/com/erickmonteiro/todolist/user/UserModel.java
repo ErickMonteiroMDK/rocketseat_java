@@ -1,7 +1,8 @@
 package br.com.erickmonteiro.todolist.user;
 
 import org.hibernate.annotations.CreationTimestamp;
-import org.annotations.Column;
+import jakarta.persistence.Column;
+
 
 import lombok.Data;
 import jakarta.persistence.Entity;
