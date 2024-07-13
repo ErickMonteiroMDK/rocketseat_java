@@ -48,6 +48,6 @@
     <p>Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests e reportar issues.</p>
     
   <h2>Autor</h2>
-    <p>Erick Monteiro - <a href="https://github.com/erickmonteiro">GitHub</a></p>
+    <p>Erick Monteiro - <a href="https://github.com/ErickMonteiroMDK">GitHub</a></p>
 </body>
 </html>
