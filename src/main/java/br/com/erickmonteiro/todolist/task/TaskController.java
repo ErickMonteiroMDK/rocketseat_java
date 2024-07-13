@@ -12,9 +12,12 @@ public class TaskController {
 
     @Autowired
     private TaskRepository taskRepository;
+    private br.com.erickmonteiro.todolist.task.TaskModel TaskModel;
 
     @PostMapping("/")
     public TaskModel create(@RequestBody TaskModel taskModel) {
+        System.out.println("Chegou no controller");
+        var task = this.taskRepository.save(TaskModel);
         return taskRepository.save(taskModel);
     }
 }
